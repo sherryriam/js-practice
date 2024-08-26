@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript course</title>
+</head>
+<body>
+    <h1>Javascript course</h1>
+    <h3>JavaScript is the world's most popular programming language.</h3>
+    <h3>JavaScript is the programming language of the Web.</h3>
+    <h3>JavaScript is easy to learn.</h3>
+    <h3>This tutorial will teach you JavaScript from basic to advanced.</h3>
+    <!--javascript can change html attributes-->
+    <button onclick="document.getElementById('myimage').src ='images/bulbon.jpg'; width='300px'">turn me on</button>
+    <img id="myimage" src="images/bulbon.jpg" alt="my yellow light bulb" width="300px">
+    <button onclick="document.getElementById('myimage').src = 'images/bulboff.jpg'; width: '100px'">turn off my bulb</button>
+    <div id="demo">
+        <h1>my image are as shown</h1>
+        <h3>we use images to show our content visually</h3>
+    </div>
+    <button onclick="none()">display none</button>
+    <img  style="display: none;" id="image" src="images/bulboff.jpg" alt="my yellow light bulb" width="300px">
+    <button onclick="window.print()">print this page</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
